@@ -7,7 +7,7 @@
         <feature>jsp-2.3</feature>
     </featureManager>
 
-    <webApplication location="alerts.war"  contextRoot="/"/>
+    <webApplication location="alerts.war"  contextRoot="/alerts"/>
 
     <!-- To access this server from a remote client add a host attribute to the following element, e.g. host="*" -->
     <httpEndpoint id="defaultHttpEndpoint"
