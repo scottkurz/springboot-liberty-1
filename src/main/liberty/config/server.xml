@@ -3,8 +3,14 @@
 
     <!-- Enable features -->
     <featureManager>
-        <feature>servlet-4.0</feature>
         <feature>jsp-2.3</feature>
+        <feature>javaee-8.0</feature>
+        <feature>microProfile-3.3</feature>
+        <feature>jndi-1.0</feature>
+    <feature>localConnector-1.0</feature>
+    <feature>jca-1.7</feature>
+    <feature>jdbc-4.2</feature>
+    <feature>servlet-4.0</feature>
     </featureManager>
 
     <webApplication location="alerts.war"  contextRoot="/"/>

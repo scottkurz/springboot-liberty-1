@@ -72,9 +72,10 @@
             <plugin>
                 <groupId>io.openliberty.tools</groupId>
                 <artifactId>liberty-maven-plugin</artifactId>
-                <version>3.2</version>
+                <version>3.7.1</version>
                 <configuration>
                     <appsDirectory>apps</appsDirectory>
+                    <looseApplication>false</looseApplication>
                 </configuration>
             </plugin> 
         </plugins>
